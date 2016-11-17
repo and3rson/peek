@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^api/', include('peek.api.urls'))
+    url(r'^api/', include('peek.api.urls')),
+    url(r'^app/', include('peek.app.urls', namespace='app')),
 ]

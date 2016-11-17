@@ -1,0 +1,26 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/and3rson/peek.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/and3rson/peek/issues"
+  },
+  "homepage": "https://github.com/and3rson/peek#readme",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-watch": "^4.3.10",
+    "install": "^0.8.2",
+    "npm": "^3.10.9"
+  }
+}

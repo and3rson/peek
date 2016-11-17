@@ -90,3 +90,7 @@ ENV/
 
 # Various
 *.sqlite3
+
+# Node stuff
+node_modules
+gen
