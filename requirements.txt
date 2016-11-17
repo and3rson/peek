@@ -1,0 +1,13 @@
+bootstrap-admin==0.3.7.1
+coverage==4.2
+Django==1.10.3
+djangorestframework==3.5.3
+djangorestframework-jwt==1.8.0
+djangorestframework-yaml==1.0.3
+Pillow==3.4.2
+py==1.4.31
+PyJWT==1.4.2
+pytest==3.0.4
+pytest-cov==2.4.0
+pytest-django==3.0.0
+PyYAML==3.12
