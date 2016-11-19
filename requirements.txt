@@ -4,10 +4,14 @@ Django==1.10.3
 djangorestframework==3.5.3
 djangorestframework-jwt==1.8.0
 djangorestframework-yaml==1.0.3
+gevent==1.1.2
+greenlet==0.4.10
 Pillow==3.4.2
+psycogreen==1.0
 py==1.4.31
 PyJWT==1.4.2
 pytest==3.0.4
 pytest-cov==2.4.0
 pytest-django==3.0.0
 PyYAML==3.12
+redis==2.10.5

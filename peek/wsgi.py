@@ -1,5 +1,5 @@
 """
-WSGI config for notes project.
+WSGI config for coreservices project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -9,8 +9,14 @@ https://docs.djangoproject.com/en/1.9/howto/deployment/wsgi/
 
 import os
 
+from gevent import monkey
+monkey.patch_all()
+
+from psycogreen.gevent import patch_psycopg
+patch_psycopg()
+
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "peek.settings.prod")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "peek.settings.dev")
 
 application = get_wsgi_application()
